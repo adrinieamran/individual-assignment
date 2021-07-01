@@ -1,0 +1,78 @@
+body
+	{
+		background-color: khaki;
+	}
+
+a:link, a:visited 
+	{
+		
+		background-color: pink;
+		color: black
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font font-family: mv boli;
+	}
+
+	a:visited
+	{
+		color: beige;
+		background-color: red
+		text-decoration: none;
+
+	}
+
+	a:hover
+	{
+		background-color: beige;
+		color: silver;
+	}
+		
+
+	a:visited
+	{
+		color:chocolate;
+		background-color: yellow
+		text-decoration: none;
+	}
+
+	a:active
+	{
+		color: green;
+		background-color: yellow;
+		text-decoration: underline;
+	}
+
+	table, tr, td, th
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		width: 50%;
+
+	}
+
+tr:nth-child(even)
+	{
+		background-color: #a8e6cf;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color: #dcedc1;
+	}
+th
+	{
+		background-color: #ff8b94;
+	}
+
+tr:hover
+	{
+		background-color: #ffd3b6;
+	}
+
+p
+	{
+		font-family: 'Great Vibes', cursive;
+	}
